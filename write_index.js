@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+const fs = require('fs');
+
+const content = `<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -99,4 +101,7 @@
     </main>
     <script src="index.js"></script>
 </body>
-</html>
+</html>`;
+
+fs.writeFileSync('index.html', content, 'utf8');
+console.log('Successfully wrote index.html with UTF-8 encoding');
