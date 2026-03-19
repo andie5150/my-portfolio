@@ -7,3 +7,6 @@ Thumbs.db
 
 # Local Environment
 .env
+
+# Agent Rules
+GEMINI.md
